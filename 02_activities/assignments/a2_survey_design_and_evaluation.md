@@ -40,30 +40,48 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: '1'
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+Chosen Scenario: 1 - Employee Turnover
+Purpose of Survey: I aim to identify the primary factors driving high turnover among entry and lower-level positions at the tech company. I seek to understand employee satisfaction across compensation, career development, management practices, and workplace culture. These insights will directly inform retention strategies and prevent additional staff departures.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: All current and recently departed (past 12 months) entry and lower-level employees (salary grades 1-4)
+Sampling Frame: Company HR database listing all employees in these grades, plus exit interview records
+Sampling Units: Individual employees
+Strategy: I will use stratified random sampling by department to ensure representation across all departments experiencing turnover. I will create separate strata for current versus recently departed employees. This approach captures why people leave while understanding what keeps current employees engaged.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Rate your satisfaction with your compensation relative to your responsibilities. (Very Dissatisfied / Dissatisfied / Neutral / Satisfied / Very Satisfied)
+
+
+2. Do you see clear opportunities for career advancement within the company? (Yes / Somewhat / No)
+
+
+3. Rate your direct manager's support for your professional development. (Excellent / Good / Fair / Poor)
+
+
+3. Which factor most influenced your decision to leave or consider leaving? (Limited growth / Low pay / Poor management / Work-life balance / Lack of recognition / Other:)
+
+
+4. On a scale of 1-10, how valued do you feel by your team and leadership?
+
+
+5. What single change would most improve your work experience? (Open-ended)
+
+
+6. How often do you receive meaningful performance feedback? (Weekly / Monthly / Quarterly / Rarely / Never)
+
+
+7. The company culture emphasizes collaboration and inclusion. Do you agree? (Strongly Agree / Agree / Neutral / Disagree / Strongly Disagree)
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +89,34 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+General Social Survey - Giving, Volunteering and Participating (2018, Cycle 33)
+
+Sample Type: Cross-sectional sample survey with stratified probability sampling design using "rejective sampling" methodology.
+
+Sample Size: Approximately 50,000 field sample units, with about 40,000 invitation letters sent and 24,000 questionnaires expected to be completed.
+
+Target Population: All persons aged 15 and older living in Canada's ten provinces, excluding full-time institutional residents (those residing more than six months in institutions).
+
+Sampling Frame: Combined frame using landline and cellular telephone numbers from the Census and administrative sources, linked with Statistics Canada's dwelling frame. Records group telephone numbers by address, improving household telephone coverage.
+
+Survey Mode(s): Electronic questionnaire or CATI (computer-assisted telephone interviewing). Respondents could choose French or English. Average completion time: 44 minutes. No proxy responses permitted.
+
+Timeline: Collection period: September 4, 2018 to December 28, 2018. Data release: January 26, 2021.
+
+Response Rate: Overall response rate: 41.9%
+
+Weights$WGHT_PER$: Basic weighting factor for person-level analysis calculating estimates of non-institutionalized persons aged 15+ with specified characteristics. Bootstrap weights created for design-based variance estimation. Weights adjusted for rejective sampling and calibrated to match 2017 Canadian 
+Income Survey distribution by province.
+
+Data Processing: Used Social Survey Processing Environment (SSPE)—generalized processing steps monitoring data quality through structured environment ensuring best practices.
+
+Cleaning & Imputation: Automated and manual edits at macro and micro levels including family, consistency, and flow edits. Donor imputation used primarily: recipient records (with missing data) matched to donor records by shared characteristics; highest-scoring donor filled missing values. Where donor imputation unavailable, mean imputation was used. Personal income obtained via linkage to 2017 T1FF tax records (81.9% of respondents); missing data imputed. Family income obtained through T1FF linkage (81.7% of households); remaining imputed.
+
+Sources of Error: Sampling error and non-sampling errors including imperfect coverage and non-response.
+Limitations & Known Biases: Coverage error: Households without telephones excluded from surveyed population; biases expected to be small given small exclusion rates. Non-response bias: Mitigated through weight adjustments using non-responding household characteristics extracted from administrative sources. Response errors and processing errors may occur.
+
+Documentation & Additional Sources: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
